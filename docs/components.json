@@ -18278,10 +18278,10 @@
       "category": "languages",
       "description": "Common project template",
       "files": [
+        ".claude/commands/git-workflow.md",
+        ".claude/commands/project-setup.md",
         ".mcp.json",
         "README.md",
-        ".claude/commands/project-setup.md",
-        ".claude/commands/git-workflow.md",
         "CLAUDE.md"
       ],
       "installCommand": "npx claude-code-templates@latest --template=common --yes",
@@ -18296,8 +18296,8 @@
       "language": "python",
       "description": "Django-App with Python",
       "files": [
-        ".claude/commands/admin.md",
         ".claude/commands/views.md",
+        ".claude/commands/admin.md",
         ".claude/commands/django-model.md",
         "CLAUDE.md"
       ],
@@ -18313,11 +18313,11 @@
       "language": "python",
       "description": "Fastapi-App with Python",
       "files": [
-        ".claude/commands/deployment.md",
-        ".claude/commands/auth.md",
         ".claude/commands/database.md",
+        ".claude/commands/deployment.md",
         ".claude/commands/api-endpoints.md",
         ".claude/commands/testing.md",
+        ".claude/commands/auth.md",
         "CLAUDE.md"
       ],
       "installCommand": "npx claude-code-templates@latest --template=fastapi-app --yes",
@@ -18332,11 +18332,11 @@
       "language": "python",
       "description": "Flask-App with Python",
       "files": [
-        ".claude/commands/deployment.md",
-        ".claude/commands/flask-route.md",
-        ".claude/commands/blueprint.md",
-        ".claude/commands/app-factory.md",
         ".claude/commands/database.md",
+        ".claude/commands/blueprint.md",
+        ".claude/commands/flask-route.md",
+        ".claude/commands/deployment.md",
+        ".claude/commands/app-factory.md",
         ".claude/commands/testing.md",
         "CLAUDE.md"
       ],
@@ -18365,16 +18365,16 @@
       "category": "languages",
       "description": "Javascript-Typescript project template",
       "files": [
-        ".mcp.json",
-        "README.md",
         ".claude/settings.json",
-        ".claude/commands/refactor.md",
         ".claude/commands/npm-scripts.md",
         ".claude/commands/typescript-migrate.md",
-        ".claude/commands/lint.md",
+        ".claude/commands/refactor.md",
         ".claude/commands/test.md",
-        ".claude/commands/debug.md",
+        ".claude/commands/lint.md",
         ".claude/commands/api-endpoint.md",
+        ".claude/commands/debug.md",
+        ".mcp.json",
+        "README.md",
         "CLAUDE.md"
       ],
       "installCommand": "npx claude-code-templates@latest --template=javascript-typescript --yes",
@@ -18391,8 +18391,8 @@
       "files": [
         ".claude/commands/database.md",
         ".claude/commands/middleware.md",
-        ".claude/commands/route.md",
         ".claude/commands/api-endpoint.md",
+        ".claude/commands/route.md",
         "CLAUDE.md"
       ],
       "installCommand": "npx claude-code-templates@latest --template=node-api --yes",
@@ -18406,10 +18406,10 @@
       "category": "languages",
       "description": "Python project template",
       "files": [
-        ".mcp.json",
         ".claude/settings.json",
-        ".claude/commands/lint.md",
         ".claude/commands/test.md",
+        ".claude/commands/lint.md",
+        ".mcp.json",
         "CLAUDE.md"
       ],
       "installCommand": "npx claude-code-templates@latest --template=python --yes",
@@ -18439,8 +18439,8 @@
       "language": "javascript-typescript",
       "description": "React-App with Javascript-Typescript",
       "files": [
-        ".claude/commands/state-management.md",
         ".claude/commands/hooks.md",
+        ".claude/commands/state-management.md",
         ".claude/commands/component.md",
         "CLAUDE.md"
       ],
@@ -18455,10 +18455,10 @@
       "category": "languages",
       "description": "Ruby project template",
       "files": [
-        ".mcp.json",
         ".claude/settings.json",
         ".claude/commands/model.md",
         ".claude/commands/test.md",
+        ".mcp.json",
         "CLAUDE.md"
       ],
       "installCommand": "npx claude-code-templates@latest --template=ruby --yes",
@@ -18487,8 +18487,8 @@
       "language": "javascript-typescript",
       "description": "Vue-App with Javascript-Typescript",
       "files": [
-        ".claude/commands/components.md",
-        ".claude/commands/composables.md"
+        ".claude/commands/composables.md",
+        ".claude/commands/components.md"
       ],
       "installCommand": "npx claude-code-templates@latest --template=vue-app --yes",
       "downloads": 0
